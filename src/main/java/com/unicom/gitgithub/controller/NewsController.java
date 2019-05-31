@@ -17,6 +17,7 @@ import java.util.List;
 @RequestMapping("news")
 public class NewsController {
 
+    //@GetMapping @PostMapping @putMapping @DeleteMapping,requestMapping包含了他们四个
     @RequestMapping(value="/getAll")
     public List<News> getAll(){
         News news1=new News(1,"aaa","cccc");
